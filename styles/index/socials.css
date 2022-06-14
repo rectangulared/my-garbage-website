@@ -1,0 +1,9 @@
+.socials {
+    display: block;
+    text-align: center;
+    height: 32px;
+}
+
+.socials img {
+    max-height: 100%;
+}

@@ -1,0 +1,34 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  color: #ffd369;
+  background-color: #393e46;
+  font-family: 'Sarabun', sans-serif;
+}
+  
+h1 {
+    font-size: calc(17vw + 40px);
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 4px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+    text-align: center;
+    color:#ffd369;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #ffc742;
+}

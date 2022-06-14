@@ -1,0 +1,29 @@
+.my-name {
+    display: flex;
+    justify-content: center;
+    color: #ffd369;
+}
+
+.my-name h1{
+    margin-bottom: 1%;  
+}
+
+.my-name-additional {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10%;
+    font-size: large;
+}
+
+.my-name-nickname {
+    quotes: "<" ">";
+}
+
+.my-name-nickname::before {
+    content: open-quote;
+}
+
+.my-name-nickname::after {
+    content: close-quote;
+}

@@ -1,0 +1,18 @@
+.nav-logo {
+    padding-right: 1%;
+    height: 16px;
+}
+
+.nav-name {
+    quotes: "<" ">";
+    font-size: large;
+    color: #ffd369;
+}
+
+.nav-name-text::before {
+    content: open-quote;
+}
+
+.nav-name-text::after {
+    content: close-quote;
+}
